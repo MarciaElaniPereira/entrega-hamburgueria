@@ -1,0 +1,45 @@
+.heder__container {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    width: 100%;
+    align-items: center;
+
+    height: 4.75rem;
+
+    img {
+        width: 200px;
+    }
+
+    div {
+
+        border: none;
+
+        button {
+            border: none;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 36px;
+            height: 50px;
+            color: var(--color-grey-300);
+
+            span {
+                width: 20px;
+                height: 22px;
+                background: var(--color-color-primary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--color-grey-100);
+                border-radius: 7px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+        }
+    }
+}
